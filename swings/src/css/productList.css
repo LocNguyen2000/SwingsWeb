@@ -1,0 +1,50 @@
+.productList_title{
+    height: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.productList_title>.title{
+    margin-left: 12px;
+    display: flex;
+    align-self: center;
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.custom_drop{
+    margin-right: 12px;
+    height: 30px;
+    display: flex;
+    align-self: center;
+    width: 150px;
+    font-size: 14px;
+    font-weight: 100;
+}
+
+.custom_drop .icon{
+    font-size: 14px;
+    color: #000;
+    display: block;
+    
+}
+
+.custom_drop_select{
+    border-color: transparent;
+    border-bottom: 1px solid #000;
+    background-color: #fff;
+    outline: 0;
+    border-radius: 0;
+    appearance: none;
+    cursor: pointer;
+    text-indent: 1px;
+}
+
+.custom_drop_select .item{
+    font-size: 14px;
+    font-weight: 100;
+    width: 150px;
+}
+
+
+

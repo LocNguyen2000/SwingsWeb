@@ -1,0 +1,56 @@
+.adminContainer{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
+}
+.adminContainer Form {
+display: flex;
+flex-direction: column;
+width: 350px;
+height: 300px;
+justify-content: center;
+}
+.adminContainer .header {
+display: flex;
+font-size: 25px;
+padding-top: 5px;
+font-weight: bold;
+justify-content: center;
+}
+.adminContainer .field {
+width: 250px;
+width: 100%;
+padding: 5px 10px;
+margin-bottom: 5px;
+display: inline-block;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+}
+.adminContainer .button-wrapper{
+  display: flex;
+  justify-content: center;
+}
+.adminContainer .button {
+display: flex;
+background-color: #f3f0f1;
+border: none;
+color: #6f6cde;
+padding: 10px 30px;
+text-align: center;
+cursor: pointer;
+text-decoration: none;
+font-size: 16px;
+border-radius: 5px;
+width: 300px;
+margin: 10px;
+justify-content: center;
+}
+.adminContainer button:hover{
+  color: #79e3b6;
+}
+.adminContainer .error {
+color: red;
+margin-bottom: 3px;
+}

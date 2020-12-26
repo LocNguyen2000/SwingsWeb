@@ -1,0 +1,180 @@
+.productInfo{
+    padding: 30px 0px;
+    display: flex;
+}
+
+.productInfo .mainImg{
+    width: 100%;
+    padding: 0px 8px;
+}
+
+.productInfo .row{
+    display: block;
+    border-bottom: 1px dotted #dfe0e1;
+    padding: 10px 0;
+}
+
+.productInfo .pro_row>h1{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 0 5px;
+    line-height: initial;
+}
+
+.productInfo .pro_row .star{
+    font-size: 13px;
+    margin-right: 10px;
+}
+
+.productInfo .pro_row .star .star-icon{
+    color: yellow;
+}
+
+.productInfo #id_prod{
+    font-size: 12px;
+    color: #a3a5a7;
+}
+
+.productInfo .pro_row #price{
+    font-size: 18px;
+    opacity: .92;
+    font-weight: bold;
+    color: red;
+}
+
+.productInfo .price .discount{
+    padding: 5px 15px;
+    margin-right: 10px;
+    background: #ededed;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    color: #f94c43;
+}
+
+.productInfo .price .no{
+    display: none;
+}
+
+.productInfo .price .bonus{
+    font-size: 14px;
+    color: #777a7b;
+    padding-left: 10px;
+    font-weight: 500;
+}
+
+.productInfo label{
+    display: block;
+    margin: 0;
+    background: #fff;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    position: relative;
+    border: 1px solid #e5e5e5;
+    font-size: 12px;
+    font-weight: 500;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productInfo label.sd{
+    border: 1px solid #000;
+    background: #000;
+    color: #fff;
+}
+
+.productInfo .size input{
+    display: none;
+}
+
+.productInfo .size{
+    display: flex;
+}
+
+.productInfo .swatch-element{
+    display: inline-block;
+    margin-right: 8px;
+    position: relative;
+}
+
+.productInfo .hd {
+    width: fit-content;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: none;
+    padding: 5px 15px;
+    line-height: 22px;
+    cursor: pointer;
+    color: #fff;
+    border: 1px solid #e85205;
+    background: #e85205;
+}
+
+.productInfo .selector .quantity_selector {
+    margin-bottom: 15px;
+}
+
+.productInfo .selector .quantity_selector .qty-btn{
+    background: #f5f5f5;
+    border: solid 1px #f5f5f5;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: 16px;
+    outline: none;
+    height: 32px;
+    width: 32px;
+    text-align: center;
+    border-radius: 0;
+}
+
+.productInfo .selector .quantity_selector #quantity{
+    background: #fff;
+    font-weight: 600;
+    height: 32px;
+    padding: 0;
+    text-align: center;
+    width: 70px;
+    border: 1px solid #f5f5f5;
+    border-left: none;
+    border-right: none;
+    border-radius: 1px;
+    -webkit-appearance: none;
+}
+
+.productInfo .selector #add_to_cart{
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+    box-shadow: none;
+    padding: 14px 35px;
+    line-height: 22px;
+    width: 49%;
+    margin-right: 5px;
+    color: #fff;
+    border-color: #e85205;
+    background: #e85205;
+    transition: 0.4s;
+}
+
+.productInfo .selector #add_to_cart:hover {
+    background-color: #fff;
+    color: black;
+}
+
+.modal-box .modal-dialog{
+    max-width: 60%;
+}
+
+.modal-box .hd_img{
+    width: 100%;
+}
+
+.modal-box .modal-header h2{
+    margin-left: 300px;
+    font-size: 20px;
+}
+
+
+

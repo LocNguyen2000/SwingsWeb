@@ -1,0 +1,272 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: color 0.35s linear;
+    font-family: 'Quicksand', sans-serif !important;
+    outline: none;
+}
+.navBarMain {
+    background-color: white;
+}
+.brand {
+    padding: 0px;
+    font-size: 37px;
+}
+
+.brand a {
+    color: black;
+    text-decoration: none;
+}
+
+.brand img{
+    width: 52px;
+    float: left;
+}
+
+.searchBar {
+    padding: 5px;
+    font-size: 20px;
+}
+.search-box {
+    background-color: rgb(228, 235, 238);
+    border-radius: 30px;
+}
+form.search-box input {
+    border: none;
+    background: none;
+    width: 100%;
+    height: 30px;
+    padding-left: 10px;
+    font-size: 14px;
+}
+form.search-box .search-icon {
+    position: absolute;
+    right: 15px;
+    top: 5px;
+    height: 30px;
+}
+.icon {
+    color: black;
+    margin: 5px;
+    float: right;
+    font-size: 22px;
+}
+.icon:hover {
+    cursor: pointer;
+    color: rgb(121, 113, 113);
+    -moz-transition-delay: 0.5;
+    transition-delay: 0.5;
+}
+
+.carosel{
+    width: 100%;
+}
+
+/* navbardropdown */
+
+.dropDownNav{
+    background-color: rgb(24, 23, 23);
+}
+
+.type::after{
+    content: "";
+    clear: both;
+    display: block;
+    width: 0;
+    height: 0;
+}
+
+.type{
+    font-size: 16px;
+    height: 60px;
+    padding-top: 20px;
+    margin-right: 20px;
+    max-width: 11.66667%;
+    z-index: 1;
+}
+
+.type>div{
+    padding: 0px;
+    margin: 0px;
+}
+
+.type ul{
+    background-color: #fff;
+    border: 1px solid #c5c1c1;
+    box-sizing: border-box;
+}
+
+.type>div>ul{
+    display: none;
+    list-style: none;
+    position: absolute;
+    top: 60px;
+    box-shadow: 2px 4px 12px rgba(0,0,0,.1);
+}
+
+.type:hover>div>ul{
+    display: block;
+}
+
+.type ul li {
+    width: 140px;
+    height: 50px;
+    padding: 0px 0px 10px 10px;
+    border-bottom: 1px solid #c5c1c1;
+    box-sizing: border-box;
+}
+
+.type ul li a{
+    width: 100%;
+    height: 40px;
+    top: 12px;
+    font-size: 13px;
+    position: relative;
+}
+
+.type .subType>ul{
+    display: block;
+    list-style: none;
+    position: absolute;
+}
+
+.type ul li .subType{
+    position: absolute;
+    display: none;
+    left: 140px;
+}
+
+.type ul li:hover .subType{
+    display: inline;
+}
+
+.type ul li:hover>a{
+    color: rgb(45, 46, 46);
+}
+
+.type a{
+    text-decoration: none;
+    color: rgb(117, 119, 119);
+}
+
+.type>div>a{
+    color: rgb(186, 190, 194);
+    top: 20px;
+    left: 2px;
+    position: absolute;
+}
+
+.type>div>a:hover{
+    color: #fff;
+}
+
+.type .arrowUp{
+    color: rgb(186, 190, 194);
+    float: right;
+    position: relative;
+    top: 22px;
+}
+
+.type:hover .arrowUp{
+    transform: rotate(180deg);
+}
+
+.type .arrowRight{
+    float: right;
+    position: relative;
+    top: 16px;
+    right: 10px;
+}
+
+.type ul li:hover>.arrowRight{
+    transform: rotate(180deg);
+}
+
+/* title */
+.titl {
+    height: 160px;
+    padding: 50px 0;
+    display: grid;
+    justify-items: center;
+}
+
+.titl a{
+    font-size: 46px;
+    text-decoration: none;
+    color: rgb(32, 30, 30);
+}
+
+.titl a:hover{
+    color: rgb(209, 179, 139);
+}
+
+/* footer */
+.footer-main{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgb(161, 161, 161);
+}
+
+.footer{
+    display: flex;
+}
+
+.footer h5{
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.footer-1 h5{
+    margin-bottom: 26px;
+}
+
+.footer .para{
+    font-size: 13px;
+}
+
+.footer-1{
+    margin-bottom: 10px;
+}
+
+.footer-1 .logo-footer img{
+    width: 150px;
+}
+
+.footer-2 h5{
+    margin: 1;
+}
+
+.footer-2 .brand-icon .icon-footer{
+    margin-right: 10px;
+    width: 25px;
+    height: 25px;
+    transition: color 0.3s linear;
+}
+
+.footer-2 .brand-icon .icon-footer:hover{
+    color: rgb(215, 216, 172);
+    cursor: pointer;
+}
+
+.footer .phoneNumber{
+    font-size: 19px;
+    font-weight: 100;
+}
+
+.footer .phone-icon{
+    color: rgb(192, 58, 58);
+    margin-right: 7px;
+}
+
+.footer-3 h5, .footer-4 h5{
+    margin-bottom: 0;
+}
+
+
+    
+
+
+
+
+

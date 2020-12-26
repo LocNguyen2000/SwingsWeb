@@ -1,0 +1,142 @@
+.header-title{
+    padding: 30px 15px;
+    border-bottom: 1px solid #ededed;
+    margin-bottom: 60px;
+    text-align: center;
+}
+
+.header-title h1{
+    font-size: 42px;
+    font-weight: 700;
+    margin: 0;
+}
+
+.header-title h1::after{
+    content: "";
+    display: block;
+    width: 130px;
+    height: 4px;
+    margin: 50px auto 0;
+    background: #252a2b;
+}
+
+.account-sidebar h3{
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+}
+
+.account-content .action-content .link{
+    display: block;
+    padding: 5px 0;
+    position: relative;
+    text-decoration: none;
+    color: black;
+    font-size: 17px;
+}
+
+.account-content .action-content .link:hover .icon{
+    color: #e85205;
+}
+.account-content .action-content .link:hover{
+    color: #e85205;
+}
+
+.account-sidebar .action-content .icon{
+    float: left;
+    margin-left: 0;
+    font-size: 13px;
+}
+
+.customer-sidebar{
+    padding: 0px 15px;
+}
+
+.customer-sidebar .title-detail{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    position: relative;
+    padding-bottom: 8px;
+    border-bottom: 1px solid #ededed;
+}
+
+
+.customer-sidebar .fullName{
+    font-size: 20px;
+    font-weight: 700;
+    margin: 5px 0px;
+}
+
+.customer-sidebar p{
+    margin-bottom: 0px;
+    font-size: 17px;
+}
+
+.customer-sidebar .custom_account{
+    text-decoration: none;
+    color: black;
+}
+
+.customer-sidebar .custom_account:hover{
+    color: #e85205;
+}
+
+.customer-orders{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background: #f7f7f7;
+    padding: 10px;
+}
+
+.customer-orders .customer-table{
+    background: #fff;
+    padding: 10px;
+}
+
+.customer-orders .customer-table p{
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 13px;
+}
+
+.customer-orders .customer-table .table{
+    margin-bottom: 30px;
+}
+
+.customer-orders .customer-table .table th,td{
+    font-size: 13px;
+}
+
+.customer-orders .customer-table .table th:first-child,td:first-child{
+    padding-left: 0;
+}
+
+.customer-orders .customer-table .table th:last-child,td:last-child{
+    padding-right: 0;
+}
+
+.customer-orders .customer-table .table td span{
+    display: block;
+}
+
+.customer-orders .customer-table .table .transactionId{
+    text-decoration: none;
+    color: black;
+}
+
+.customer-orders .customer-table .table .transactionId:hover{
+    color: #e85205;
+}
+
+.customer-orders .customer-table .table img{
+    width: 50px;
+}
+
+.customer-orders .customer-table .table .table-footer span{
+    font-weight: 700;
+}

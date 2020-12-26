@@ -1,0 +1,80 @@
+.myModal {
+    padding: 20px;
+    position: absolute;
+    left: 40%;
+    top: 10%;
+    background: white;
+    width: 650px;
+    height: 700px;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+    padding: 5px;
+  }
+  .form input {
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+  }
+  .form input:focus {
+    outline: none;
+  }
+  .form .file-input {
+    border: none;
+  }
+  .size{
+      padding: 5px;
+      border-bottom: 1px solid black;
+      color: grey;
+  }
+  .form button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    background: #234363d2;
+    color: white;
+  }
+  .form button:hover {
+    background: #3e6b99d2;
+  }
+  .form button:focus {
+    outline: none;
+  }
+  .size-container{
+      border-bottom: 1px solid black;
+      padding: 5px;
+      color: grey;
+  }
+  .size-container span{
+      font-size: 16px;
+      padding-left: 4px;
+  }
+  .size-container .size-title{
+      padding-left: 10px;
+  }
+  .size-title input{
+      margin-left: 5px;
+  }
+
+  #category, #subcategory{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+    outline: none;
+  }
+
+  label{
+    margin-right: 6px;
+  }
+
+  .size-checkbox{
+    padding: 10px;
+    border: none;
+    border-bottom: 1px solid black;
+    margin-bottom: 10px;
+  }

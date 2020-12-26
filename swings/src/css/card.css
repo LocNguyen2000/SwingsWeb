@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    transition: all 0.3s linear;
+}
+
+.item{
+    display: block;
+    width: 262px;
+    height: -moz-max-content;
+    height: fit-content;
+    padding: 0 27px;
+    box-sizing: border-box;
+}
+
+.namePrice{
+    padding: 13px 0px;
+    height: 80px;
+}
+
+.item .img1, .img2{
+    width: 231px;
+    height: 231px;
+}
+
+.item .product-sale{
+    top: 10px;
+    left: 38px;
+    color: #f94c43;
+    position: absolute;
+    font-size: 12px;
+    line-height: 1;
+    padding: 5px 10px;
+    font-weight: bold;
+    z-index: 9;
+    background: #fff;
+    border: 1px solid #ededed;
+}
+
+.item .no{
+    display: none;
+}
+
+.img1{
+    position: absolute;
+    top: 0;
+    left: 27px;
+}
+
+.name{ 
+    font-size: 13px;
+    text-decoration: none;
+    color: rgb(42, 40, 40);
+}
+
+.name:hover{
+    color: rgb(241, 179, 179);
+    text-decoration: none;
+}
+
+.namePrice .price{
+    font-size: 13px;
+    bottom: 17px;
+}
+
+.item:hover .img1{
+    visibility: hidden;
+    opacity: 0;
+    transition:visibility 0.3s linear,opacity 0.3s linear;
+}
+
+.namePrice .price .real{
+    color: rgb(121, 116, 116);
+}
+
+.namePrice .price .discount{
+    color:red;
+    margin-right: 9px;
+}
+
+.namePrice .price .no{
+    display: none;
+    margin: 0;
+}
+
+

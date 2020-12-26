@@ -1,0 +1,32 @@
+.order-detail{
+    width: calc(100vw - 350px);
+    display: block;
+    margin-top: 20px;
+    padding-left: 100px;
+}
+
+.order-detail .detail-header{
+    background: #2f4050;
+    color: white;
+    padding: 10px;
+    font-size: 23px;
+    font-weight: 600;
+}
+
+.detail-header span{
+    color: #ffffbc;
+}
+
+.order-detail .user-info{
+    background-color: #454d55;
+    color: white;
+    padding: 10px;
+}
+
+.user-info span{
+    font-size: 18px;
+}
+
+.table-data .product-img{
+    width: 75px;
+}
