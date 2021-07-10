@@ -4,7 +4,7 @@
   "description": "",
   "main": "app.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest --passWithNoTests --coverage",
     "start": "nodemon app.js"
   },
   "author": "",
@@ -18,5 +18,11 @@
     "jsonwebtoken": "^8.5.1",
     "mongoose": "^5.7.1",
     "nodemon": "^1.19.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.6",
+    "@babel/preset-env": "^7.14.7",
+    "babel-jest": "^27.0.6",
+    "jest": "^27.0.6"
   }
 }

@@ -5,6 +5,12 @@ const authenticate = (req, res, next) => {
          //Extract Authorization Token
         const token = req.headers["auth-token"];
         const decoded = jwt.verify(token, 'mysecretkey');
+        console.log(decoded);
+        if (!decoded){
+            res.status(401).json({
+                error: "Invalid Token"
+            })
+        }
         req.user = decoded
         next();
     }catch(error){
